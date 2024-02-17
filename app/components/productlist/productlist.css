@@ -1,0 +1,175 @@
+.prpduct-box{
+  background-color: #f8f8f8;
+  width: 100%;
+  height: 100%;
+}
+.product-header{
+  height: 16%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.product-header button{
+  padding: 12px 36px;
+  border: 1px solid #e5e5e5;
+  background-color: #f8f8f8;
+  border-radius: 20px;
+  margin: 0px 9px;
+  cursor: pointer;
+  color: #3b3b3b;
+  font-size: 18px;
+}
+.product-header button:focus{
+
+  background-color: #ffa16c;
+  border: none;
+  color: #fff;
+}
+.box-list{
+  height: 100%;
+}
+.lis-card{
+  height: 100%;
+}
+.lis-card .card{
+  width: 46%;
+  height: 40%;
+  background-color: white;
+  border-radius: 12px;
+  box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.02);
+}
+.imgg-desk{
+  height: 100%;
+  display: grid;
+  grid-template-columns: 1.5fr 2fr;
+  grid-template-rows: 3fr 1fr;
+}
+.contimg{
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.imgg{
+  height: 96%;
+  width: 90%;
+  background-color: #f8f8f8;
+  border-radius: 13px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.imgg img{
+  width: 120px;
+}
+.count{
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 4px;
+}
+.btn-to {
+  height: 100%;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.btn-to button {
+  width: 80%;
+  height: 80%;
+  border-radius: 23px;
+  outline: 1px solid #ffa16c;
+  border: none;
+  background-color: #fff;
+  font-size: 17px;
+  color:#ffa16c;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+.btn-to button:hover {
+background-color:#ffa16c ;
+color: #fff;
+}
+.desk-title{
+  display: grid;
+  grid-template-rows: 1fr 2fr 1fr;
+}
+.tiltprr{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0px 13px;
+}
+.deskk{
+  padding-left: 13px;
+}
+.deskk p{
+  color: #b6b6b6;
+}
+.btn-chois{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 16px;
+}
+.btn-chois button{
+padding: 10px 16px;
+border-radius: 18px;
+border: 1px solid #e5e5e5;
+outline: none;
+background-color: #fff;
+cursor: pointer;
+}
+.btn-chois button:focus{
+  background-color: #3b3b3b;
+  color: white;
+  }
+  .btn-chois .sizee h2{
+    font-size: 20px;
+  }
+  .count {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .count .na9is ,.zaeid{
+    height: 30px;
+    width: 30px;
+    border: 2px solid #ebebeb;
+    border-radius: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+  }
+  .count .na9is h2{
+    height: 30px;
+    width: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .lis-card{
+    height: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 10px;
+    margin-top: 43px;
+    align-items: center;
+    justify-content: center;
+
+  }
+  .name-sec{
+    padding-left: 6%;
+  }
+  .name-sec h4{
+    font-size: 23px;
+    font-weight: 500;
+  }
+  .prix{
+    color: #ffa16c;
+  }

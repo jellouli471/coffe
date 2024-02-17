@@ -1,0 +1,45 @@
+
+.iconstyle {
+  font-size: 23px;
+}
+.sidic {
+  height: 85%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  position: fixed;
+  background-color: white;
+}
+.link1 {
+  display: flex;
+  flex-direction: column;
+}
+.link1 a,
+.link2 a {
+  margin: 10px 0px;
+  margin-left: 30px;
+  font-size: 18px;
+  color: #3b3b3b;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+.link2 {
+  display: flex;
+  flex-direction: column;
+}
+.lineh {
+  border: 1px solid #f8f8f8;
+}
+.login {
+  display: flex;
+  align-items: center;
+}
+.login span {
+  display: flex;
+  align-items: center;
+  margin-left: 30px;
+  gap: 10px;
+  font-size: 18px;
+  cursor: pointer;
+}

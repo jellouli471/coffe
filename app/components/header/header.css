@@ -1,0 +1,78 @@
+.pic img{
+  width: 45px;
+}
+header{
+  position: -webkit-sticky; /* لدعم متصفحات WebKit مثل Chrome و Safari */
+  position: sticky;
+  top: 0; /* يثبت العنصر في الأعلى */
+  background-color: white;
+  z-index: 1000; /* تحديد ترتيب العرض لضمان ظهور العنصر فوق المحتوى الآخر */
+  height: 13%;
+  display: grid;
+  grid-template-columns: 1fr 3fr 1fr;
+  justify-content: center;
+  align-items: center; 
+}
+.profile{
+  height: 100%;
+  width: 100%;
+  padding: 0px 12px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.userprof{
+  display: flex;
+}
+
+.logo{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+}
+.logo h1 span{
+  color: #ffa16c;
+}
+.search input{
+  width: 40%;
+  height: 44.8px;
+  border: none;
+  border-radius: 15px 0px 0px 15px;
+  background-color: #f8f8f8;
+  outline: none;
+  padding-left: 17px;
+  margin-left: 10%;
+}
+.search{
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  border-left: 2px solid #e5e5e5 ;
+  border-right: 2px solid #e5e5e5 ;
+}
+.userName{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-left: 10px;
+}
+.userName h3{
+  font-size: 13px;
+}
+.log-set{
+  width: 30%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.search button{
+  height: 44.8px;
+  width: 8%;
+  outline: none;
+  border: none;
+  cursor: pointer;
+  border-radius:0px 15px 15px 0px;
+  background-color: #ffa16c;
+}
